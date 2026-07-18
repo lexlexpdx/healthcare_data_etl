@@ -1,0 +1,28 @@
+# .gitignore file
+# Author: Lex Albrandt
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS files
+.DS_store
+Thumbs.db
+
+# Logs
+*.log
